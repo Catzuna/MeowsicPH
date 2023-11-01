@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MeowsicDon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="neko">
+        <nav>
+            <ul>
+              <!--Sir Kinuha ko lng po un design nito sa Online Resume na activity namen po kaya medyo maaga po ako nag submit bale ni modofy ko nlng saka nag add some design at features Tenchu serr meow.-->
+                <li><img src="Cat.jpg" alt="Cat"></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#album">Album</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="meow" id="home">
+            <h1>Meow <span>sic</span></h1>
+            <p>Explore the art of music creation and let your creativity flow.</p>
+            <a href="#musician-access">Musician's Access</a>
+        </div>
+        <div class="meow" id="about">
+            <h1>About Meowsic</h1>
+            <p>"Explore and immerse yourself in the fascinating world of music creation, allowing your boundless creativity to take flight and soar to new artistic heights."</p>
+        </div>
+        <div class="meow" id="album">
+            <h1>Our Albums</h1>
+            <p>Explore our musical journey through our albums and tracks.</p>
+        </div>
+        <div class="meow" id="contact">
+            <h1>Contact Us</h1>
+            <p>Have questions or want to collaborate? Reach out to us through these channels:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/i6Neko?mibextid=2JQ9oc">Facebook</a></li>
+                <li><a href="https://instagram.com/sojzu_?igshid=NzZlODBkYWE4Ng=">Instagram</a></li>
+                <li><a href="https://youtube.com/@i6Sojzu?si=C1dMFQ3jEHvthMMv">YouTube</a></li>
+                <li><a href="https://x.com/_catzuna?t=I3rddv74RwCGyCAYHI6gGw&s=09">X🐦</a></li>
+            </ul>
+            
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to get in touch with me.</p>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="meow" id="musician-access">
+            <h1>Meowsic</h1>
+            <p>Exclusive features for musicians. Log in or <a href="#musician-signup">Sign Up</a> to get started.</p>
+            <form id="musicianLoginForm">
+                <label for="musicianUsername">Username</label>
+                <input type="text" id="musicianUsername" name="musicianUsername" required>
+
+                <label for="musicianPassword">Password</label>
+                <input type="password" id="musicianPassword" name="musicianPassword" required>
+
+                <button id="musicianLoginButton" type="submit">Login</button>
+            </form>
+            <p id="musicianLoginMessage"></p>
+        </div>
+        <div class="meow" id="musician-signup">
+            <h1>Musician Sign Up</h1>
+            <p>Join Meowsic and unleash your musical potential. Sign up below:</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
